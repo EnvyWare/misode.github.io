@@ -29,11 +29,11 @@
     "deepslate-1.18": "npm:deepslate@0.9.0-beta.9",
     "deepslate-1.18.2": "npm:deepslate@0.9.0",
     "deepslate-1.20.4": "npm:deepslate@0.20.1",
-    "diff": "^7.0.0",
-    "dompurify": "^3.2.6",
+    "diff": "^8.0.4",
+    "dompurify": "^3.4.17",
     "highlight.js": "^11.5.1",
     "howler": "^2.2.3",
-    "js-yaml": "^3.14.1",
+    "js-yaml": "^3.15.2",
     "lz-string": "^1.4.4",
     "marked": "^4.0.10",
     "rfdc": "^1.3.0",
@@ -43,8 +43,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.0",
-    "@rollup/plugin-html": "^1.0.1",
-    "@types/diff": "^5.2.2",
+    "@rollup/plugin-html": "^1.1.0",
     "@types/google.analytics": "0.0.40",
     "@types/gtag.js": "^0.0.10",
     "@types/howler": "^2.2.4",
@@ -57,13 +56,16 @@
     "@typescript-eslint/parser": "^5.28.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.17.0",
-    "postcss": "^8.4.31",
+    "postcss": "^8.5.31",
     "preact": "^10.8.0",
     "preact-router": "^3.2.1",
-    "rollup-plugin-visualizer": "^5.6.0",
+    "rollup-plugin-visualizer": "^5.14.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^4.7.3",
-    "vite": "^6.0.11",
-    "vite-plugin-static-copy": "^2.2.0"
+    "vite": "^6.4.5",
+    "vite-plugin-static-copy": "^2.3.2"
+  },
+  "overrides": {
+    "follow-redirects": "^1.16.1"
   }
 }
